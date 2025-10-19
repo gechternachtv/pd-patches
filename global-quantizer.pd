@@ -1,0 +1,11 @@
+#N canvas 827 239 527 327 12;
+#X obj 375 315 r $scale, f 10;
+#X obj 304 292 r $scaleroot;
+#X obj 252 352 mscale;
+#X obj 240 167 inlet note, f 12;
+#X obj 252 404 outlet note;
+#X connect 0 0 2 2;
+#X connect 1 0 2 1;
+#X connect 2 0 4 0;
+#X connect 3 0 2 0;
+#X coords 0 0 1 1 158 35 0;
