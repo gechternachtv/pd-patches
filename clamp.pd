@@ -1,0 +1,14 @@
+#N canvas 827 239 527 327 12;
+#X obj 484 508 min~ 1;
+#X obj 484 544 max~ 0, f 10;
+#X obj 459 421 inlet~;
+#X obj 484 602 outlet~;
+#X obj 484 469 /~ \$1;
+#X obj 575 432 note 173 14 Inter empty 0 0 0 0 0 51 51 51 0 0 usage: [clamp 1]
+
+this divides the inlet by 1 and clamps it from 0 to 1
+useful for automatonism patches that uses a weird 0 to 1 pattern on everything;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 2 0 4 0;
+#X connect 4 0 0 0;
