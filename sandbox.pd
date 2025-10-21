@@ -26,7 +26,7 @@
 #X obj 657 -275 global-quantizer, f 15;
 #X obj 657 -249 mtof, f 5;
 #X obj 532 -215 adsr.m~;
-#A saved 97 1 2000 650 0 0 0 0 0;
+#A saved 1 1 2000 1 0 0 0 0 0;
 #A saved;
 #A saved;
 #A saved;
@@ -36,7 +36,7 @@
 #A saved;
 #A saved;
 #X obj 319 -308 adsr.m~;
-#A saved 1 1 2000 49 2 0 0 0 0;
+#A saved 1 1 2000 1 2 0 0 0 0;
 #A saved;
 #A saved;
 #A saved;
@@ -96,9 +96,9 @@
 #X obj 1118 -54 delay~ 700;
 #X obj 1006 -70 a/scope;
 #X obj 1247 -56 a/scope;
-#X obj 1028 511 out~;
+#X obj 1026 215 out~;
 #X obj 1477 -282 a/basic-lfo;
-#X obj 879 -432 globalscale-setter;
+#X obj 1310 -367 randommodule;
 #X connect 0 0 3 0;
 #X connect 1 0 2 0;
 #X connect 1 0 8 0;

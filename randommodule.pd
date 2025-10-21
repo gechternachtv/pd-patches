@@ -1,0 +1,18 @@
+#N canvas 827 239 734 565 12;
+#X msg 250 130 seed 123, f 9;
+#X obj 106 15 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;
+#X obj 237 166 random 80, f 13;
+#X obj 18 175 +, f 5;
+#X obj 56 15 nbx 4 18 -1e+37 1e+37 0 0 empty empty + 0 -8 0 10 #e4e4e4 #272727 #111111 0 256;
+#X obj 1 15 nbx 4 19 -1e+37 1e+37 0 0 empty empty max 0 -8 0 10 #c4e4b7 #2f2f2f #111111 0 256;
+#X obj 234 -39 inlet;
+#X obj 18 231 outlet;
+#X obj 95 -3 note 55 14 DotGothic16 empty 0 17 17 17 0 51 51 51 0 0 rand;
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 7 0;
+#X connect 4 0 3 1;
+#X connect 5 0 2 1;
+#X connect 6 0 1 0;
+#X coords 0 0 1 1 125 34 1 0 0;
