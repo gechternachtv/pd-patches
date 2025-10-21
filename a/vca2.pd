@@ -5,8 +5,8 @@
 #X obj 320 256 +~;
 #X text 301 36 SIGNAL IN;
 #X text 437 91 CV IN, f 7;
-#X obj 113 117 hsl 89 15 0 127 0 1 \$0-vca-cv-att-s \$0-vca-cv-att-r cv 10 7 0 10 #9898dc #000000 #000000 0 1;
-#X obj 113 101 hsl 89 15 0 127 0 1 \$0-vca-vca-s \$0-vca-vca-r amp 10 7 0 10 #fcfcfc #000000 #000000 648 1;
+#X obj 113 119 hsl 89 15 0 127 0 1 \$0-vca-cv-att-s \$0-vca-cv-att-r cv 10 7 0 10 #9898dc #000000 #000000 0 1;
+#X obj 113 103 hsl 89 15 0 127 0 1 \$0-vca-vca-s \$0-vca-vca-r amp 10 7 0 10 #fcfcfc #000000 #000000 411 1;
 #X obj 126 72 cnv 5 5 5 empty empty VCA 0 0 0 12 #fcfcfc #404040 0;
 #X obj 225 72 cnv 5 5 5 empty empty CV 0 0 0 8 #fcfcfc #9898dc 0;
 #X obj 107 68 cnv 5 5 5 empty empty IN 0 0 0 8 #fcfcfc #404040 0;
@@ -396,4 +396,4 @@
 #X connect 25 0 0 0;
 #X connect 26 0 24 0;
 #X connect 27 0 19 0;
-#X coords 0 -1 1 1 94 31 2 110 101;
+#X coords 0 -1 1 1 94 31 2 110 103;
